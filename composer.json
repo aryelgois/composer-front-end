@@ -1,0 +1,13 @@
+{
+    "name": "aryelgois/composer-front-end",
+    "description": "A utility to install front-end files with Composer",
+    "keywords": ["front-end", "composer", "dependency-manager", "package-manager"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aryel Mota Góis",
+            "role": "Developer"
+        }
+    ],
+    "require": {}
+}
