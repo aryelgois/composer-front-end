@@ -154,6 +154,12 @@ used.
 * Even with `nest`, all symlinks are placed flattened, i.e., the file structure
   in the vendor package is not preserved.
 
+* You might want to add the directories in your frontend-config.json to your
+  .gitignore. If you wish to keep these directories in your repository, add the
+  following .gitignore in each one:
+
+      *
+      !.gitignore
 
 # TODO
 
