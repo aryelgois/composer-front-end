@@ -143,15 +143,13 @@ used.
 * You still need to manually add the markup to use the symlinked files in your
   webpage:
 
-  ```html
-<head>
-    <link rel="stylesheet" href="/css/superduperstyle.css" />
-</head>
-<body>
-    <script src="/js/some/package/myawesomescript.js"></script>
-    <script src="/js/some/package/main.js"></script>
-</head>
-  ```
+      <head>
+          <link rel="stylesheet" href="/css/superduperstyle.css" />
+      </head>
+      <body>
+          <script src="/js/some/package/myawesomescript.js"></script>
+          <script src="/js/some/package/main.js"></script>
+      </head>
 
 * Even with `nest`, all symlinks are placed flattened, i.e., the file structure
   in the vendor package is not preserved.
