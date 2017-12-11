@@ -101,6 +101,8 @@ as in frontend.json.
 
 Useful when a vendor does not include the frontend.json.
 
+> It replaces the frontend.json
+
 #### structure
 
 _(optional)_
