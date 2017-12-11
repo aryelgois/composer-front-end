@@ -50,8 +50,8 @@ If you already installed some front-end packages, run
 
 These JSON files are used to tell which files should be symlinked and where.
 
-You could use any key you like, but it needs to be the same in the dependency
-config and in your project.
+You could use any key you like for the `file_group`, but it needs to be the same
+in the vendor config and in your project.
 
 
 ## frontend.json
@@ -59,7 +59,7 @@ config and in your project.
 Used in vendor packages.
 
 It contains a map of `'file_group': ['file']` of files to be symlinked into your
-package.  
+project.  
 Paths are relative to the vendor package directory.
 
 > not `vendor/`, but `vendor/some/package/`
@@ -107,7 +107,7 @@ Useful when a vendor does not include the frontend.json.
 
 _(optional)_
 
-Defines how the symlinks are placed in the directories:
+Defines how the symlinks are placed in the directory of each file_group:
 
 * **nest**: Symlinks will be created at `vendor/package/`, inside the specified
   directories. It helps with files with same name.
