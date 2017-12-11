@@ -135,6 +135,8 @@ used.
 }
 ```
 
+> `public/` is the Document Root
+
 
 # Notes
 
